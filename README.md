@@ -1,5 +1,13 @@
+<a href="https://matplotlib.org">
+    <img align="right" src="https://custom-icon-badges.herokuapp.com/badge/Matplotlib-14354C.svg?logo=matplotlib" alt="Matplotlib">
+</a>
+
 <a href="https://numpy.org">
     <img align="right" src="https://custom-icon-badges.herokuapp.com/badge/NumPy-14354C.svg?logo=numpylogo" alt="NumPy">
+</a>
+
+<a href="https://jupyter.org">
+    <img align="right" src="https://img.shields.io/badge/Jupyter-FF5D09.svg?logo=Jupyter&logoColor=white" alt="Jupyter">
 </a>
 
 <a href="https://www.python.org">
