@@ -52,7 +52,6 @@ Esta tarea genera una obra inspirada en el pintor neerlandés [Piet Mondrian](ht
 
 - https://docs.python.org/3/library/random.html
 
-
 # Tarea 3: Resolver una de las tareas anteriores usando funciones de dibujo de OpenCV <a name="Tarea-3"></a>
 
 ## <ins>Tarea seleccionada:</ins> Imagen al estilo Mondrian <a name="Tarea-3:-Tarea-seleccionada"></a>
@@ -186,7 +185,7 @@ conda list --explicit > spec-file.txt
 
 # ⚠️ Disclaimer <a name="Disclaimer"></a>
 
-Los archivos recopilados en este repositorio son una modificación de los archivos originales creados por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC).
+Los archivos recopilados en este repositorio son una modificación de los archivos originales creados por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC)
 
 Este repositorio se desarrolla exclusivamente con fines educativos como parte de un curso universitario.
 
