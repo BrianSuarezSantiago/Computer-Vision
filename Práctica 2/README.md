@@ -92,7 +92,7 @@ Esta tarea consiste en crear un programa que permita a los usuarios resaltar de 
 
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
-La guía presentada aquí es una modificación de la guía de instalación original creada por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC/P1).
+La guía presentada aquí es una modificación de la guía de instalación original creada por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC/P2).
 
 Esta sección detalla los pasos necesarios para configurar el entorno de desarrollo para la práctica.
 
