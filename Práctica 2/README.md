@@ -9,7 +9,7 @@ El presente repositorio contiene ejercicios prácticos y código relacionado con
   - [Tarea 2: Sobel antes y después del ajuste de escala](#tarea-2)
   - [Tarea 2 Extra: Umbralización de la imagen Sobel y resultados de Canny](#tarea-2-extra)
   - [Tarea 3: Exhibición de lo aprendido en estas dos prácticas ante quienes no cursan la asignatura](#tarea-3)
-  - [Tarea 4: Resaltado de colores en transmisión de vídeo en tiempo real con función de movimiento](#tarea-4)
+  - [Tarea 4: Resaltado de colores en transmisión de vídeo en tiempo real](#tarea-4)
   - [Guía de instalación](#guia-de-instalacion)
   - [Configuración del entorno de desarrollo](#configuracion-entorno-desarrollo)
   - [Comandos básicos de Anaconda](#comandos-basicos-anaconda)
@@ -78,7 +78,7 @@ Esta tarea propone realizar un demostrador que capture las imágenes de la cáma
 
 # Tarea 4: Resaltado de colores en transmisión de vídeo en tiempo real <a name="tarea-4"></a>
 
-Esta tarea consiste en crear un programa que permita a los usuarios resaltar de manera interactiva objetos de colores específicos en una transmisión de cámara web en vivo. Los usuarios pueden cambiar entre diferentes colores presionando las teclas correspondientes. Cuando se selecciona un color, el programa detecta objetos de ese color en tiempo real utilizando la cámara del ordenador y los resalta en la transmisión de vídeo.
+Esta tarea consiste en crear un programa que permita a los usuarios resaltar de manera interactiva objetos de colores específicos en una transmisión de cámara web en vivo a través de una función de movimiento que crea un efecto de desenfoque cuando se detecta movimiento, simulando una experiencia fantasmagórica. Los usuarios pueden cambiar entre diferentes colores presionando las teclas correspondientes. Cuando se selecciona un color, el programa detecta objetos de ese color en tiempo real utilizando la cámara del ordenador y los resalta en la transmisión de vídeo.
 
 <ins>Documentación utilizada:</ins>
 
@@ -89,10 +89,6 @@ Esta tarea consiste en crear un programa que permita a los usuarios resaltar de 
 - https://omes-va.com/operadores-bitwise/
 
 - https://www.geeksforgeeks.org/python-opencv-cv2-puttext-method/
-
-# Tarea Extra: Resaltado de colores en transmisión de vídeo en tiempo real con función de movimiento <a name="tarea-extra"></a>
-
-Esta tarea es la misma que la mencionada anteriormente, pero con una ligera modificación: añade una función de movimiento que crea un efecto de desenfoque cuando se detecta movimiento, simulando una experiencia fantasmagórica.
 
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
