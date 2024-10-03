@@ -64,23 +64,12 @@ Esta tarea explora la detección de bordes, la umbralización y el análisis del
 
 Esta tarea propone realizar un demostrador que capture las imágenes de la cámara y ponga en práctica lo aprendido en las dos primeras prácticas de la asignatura ante aquellos quienes no han cursado la asignatura. Para ello, se propone un repertorio de habilidades en el que se muestran los siguientes efectos alternando entre ellas con eventos de ratón o teclado combinando las funciones vistas hasta este momento aplicadas sobre la entrada de la cámara.
 
-- Pixel más claro / oscuro
-- Pop art
-- Detector de movimiento tomando un fondo "cada x tiempo" y viendo diferencias con ese fotograma
-- Detector de movimiento mostrando la diferencia con la imagen anterior
-- Muestreo de bordes verticales usando la diferencia entre el fotograma actual y el anterior
-- Muestreo de bordes verticales en la imagen capturada
-- Muestreo de bordes horizontales en la imagen capturada
-- Muestreo de bordes verticales y horizontales en la imagen capturada
-- Muestreo de la salida del Canny aplicado al fotograma actual
-- El fotograma umbralizado
-- Canny umbralizado
+**<ins>Efectos disponibles:</ins>**
 
-<ins>Uso:</ins>
-
-- Flecha derecha para avanzar
-- Fecha izquierda para retroceder
-- Escape para salir
+1. Mostrar imagen original.
+2. Convertir a escala de grises.
+3. Aplicar Canny (detección de bordes).
+4. Umbralización binaria.
 
 ![Task 3 Output](./Assets/Task3.png)
 
