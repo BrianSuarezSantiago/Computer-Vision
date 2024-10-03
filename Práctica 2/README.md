@@ -34,6 +34,8 @@ pip install opencv-python numpy matplotlib
 
 Esta tarea consiste en analizar la distribución de píxeles blancos en una imagen obtenida mediante detección de bordes con el operador *Canny*. Calcula y visualiza el número de píxeles blancos por columna y por fila, destacando aquellos que superan un umbral especificado.
 
+![Task 1 Output](./Assets/Task1.png)
+
 # Tarea 2: Sobel antes y después del ajuste de escala <a name="tarea-2"></a>
 
 Esta tarea tiene como objetivo visualizar los bordes verticales y horizontales en una imagen y su combinación utilizando el operador de Sobel para la detección de bordes.
@@ -46,6 +48,8 @@ Esta tarea tiene como objetivo visualizar los bordes verticales y horizontales e
 
 - https://www.tutorialspoint.com/opencv/opencv_sobel_operator.htm
 
+![Task 2 Output](./Assets/Task2.png)
+
 # Tarea 2 Extra: Umbralización de la imagen Sobel y resultados de Canny <a name="tarea-2-extra"></a>
 
 Esta tarea explora la detección de bordes, la umbralización y el análisis del conteo de píxeles utilizando tanto el operador de Sobel como las técnicas de detección de bordes de Canny en una imagen de entrada, con énfasis en identificar y visualizar las filas y columnas más destacadas en la imagen.
@@ -53,6 +57,8 @@ Esta tarea explora la detección de bordes, la umbralización y el análisis del
 <ins>Documentación utilizada:</ins>
 
 - https://docs.opencv.org/4.x/dc/da5/tutorial_py_drawing_functions.html
+
+![Task 2 Extra Output](./Assets/Task2-Extra.png)
 
 # Tarea 3: Exhibición de lo aprendido en estas dos prácticas ante quienes no cursan la asignatura <a name="tarea-3"></a>
 
