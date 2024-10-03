@@ -82,6 +82,8 @@ Esta tarea propone realizar un demostrador que capture las imágenes de la cáma
 - Fecha izquierda para retroceder
 - Escape para salir
 
+![Task 3 Output](./Assets/Task3.png)
+
 # Tarea 4: Resaltado de colores en transmisión de vídeo en tiempo real <a name="tarea-4"></a>
 
 Esta tarea consiste en crear un programa que permita a los usuarios resaltar de manera interactiva objetos de colores específicos en una transmisión de cámara web en vivo a través de una función de movimiento que crea un efecto de desenfoque cuando se detecta movimiento, simulando una experiencia fantasmagórica. Los usuarios pueden cambiar entre diferentes colores presionando las teclas correspondientes. Cuando se selecciona un color, el programa detecta objetos de ese color en tiempo real utilizando la cámara del ordenador y los resalta en la transmisión de vídeo.
@@ -95,6 +97,35 @@ Esta tarea consiste en crear un programa que permita a los usuarios resaltar de 
 - https://omes-va.com/operadores-bitwise/
 
 - https://www.geeksforgeeks.org/python-opencv-cv2-puttext-method/
+
+**<ins>Resultados de capturas realizadas</ins>**
+
+- Azul:<br>
+  * Cola de peluche<br><img src="./Assets/Blue.png" alt="Teddy Tail" width="300px" height="200px"/><br>
+
+- Marrón:<br>
+  * Postre<br><img src="./Assets/Brown.png" alt="Brown hair" width="300px" height="200px"/><br>
+
+- Verde:<br>
+  * Cuerpo peluche<br><img src="./Assets/Green.png" alt="Teddy Body" width="300px" height="200px"/><br>
+
+- Gris:<br>
+  * Camiseta<br><img src="./Assets/Gray.png" alt="T-shirt" width="300px" height="200px"/><br>
+
+- Naranja:<br>
+  * Figura<br><img src="./Assets/Orange.png" alt="Figure" width="300px" height="200px"/><br>
+
+- Rojo:<br>
+  * Hucha<br><img src="./Assets/Red.png" alt="Figure" width="300px" height="200px"/><br>
+
+- Blanco:<br>
+  * Mueble<br><img src="./Assets/White.png" alt="Furniture" width="300px" height="200px"/><br>
+
+- Amarillo:<br>
+  * Sombrero y pico de peluche<br><img src="./Assets/Yellow.png" alt="Teddy hat and beak" width="300px" height="200px"/><br>
+
+- Rosa:<br>
+  * Gel de baño<br><img src="./Assets/Pink.png" alt="Teddy hat and beak" width="300px" height="200px"/><br>
 
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
