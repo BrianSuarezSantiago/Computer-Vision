@@ -122,7 +122,7 @@ Anaconda te permite crear diferentes entornos, cada uno con sus propios paquetes
 
 1. Inicia Visual Studio Code.
 
-2. Instala la extensión de Python para Visual Studio Code. La puedes encontrar en el [Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+2. Instala la extensión de Python para Visual Studio Code. La puedes encontrar en el [Marketplace.](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 3. Abre el Anaconda Prompt.
 
@@ -188,7 +188,7 @@ conda list --explicit > spec-file.txt
 
 # ⚠️ Disclaimer <a name="disclaimer"></a>
 
-Los archivos recopilados en este repositorio son una modificación de los archivos originales creados por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC)
+Los archivos recopilados en este repositorio son una modificación de los archivos originales creados por [otsedom.](https://github.com/otsedom/otsedom.github.io/tree/main/VC)
 
 Este repositorio se desarrolla exclusivamente con fines educativos como parte de un curso universitario.
 
