@@ -49,6 +49,8 @@ Esta tarea consiste en capturar una o más imágenes que contengan monedas tanto
 
 El conteo de monedas no es completamente preciso. El error radica principalmente en la confusión entre las monedas de 50 céntimos y las de 2 euros, así como con las de 1 euro.
 
+![Coin Detection and Valuation](./Assets/Coins%20detected.png)
+
 # Tarea 2: Clasificación y análisis basado en contornos <a name="task-2"></a>
 
 Esta tarea consiste en determinar patrones geométricos para tres clases distintas de imágenes de microplásticos y evaluar la precisión de su clasificación utilizando para ello matrices de confusión. El objetivo radica en analizar las características geométricas de las imágenes disponibles en cada clase y evaluar qué tan bien se pueden distinguir entre sí. Las métricas se utilizan para medir la eficacia de un clasificador.
@@ -96,9 +98,21 @@ Una forma de mejorar los resultados, al menos desde un enfoque empírico, ha sid
 
 - https://learnopencv.com/blob-detection-using-opencv-python-c/
 
+![Fragments Contour Highlighting Result](./Assets/Fragments%20result%20of%20detection.jpg)
+
+![Fragments Confusion Matrix Result](./Assets/Fragments%20confusion%20matrix.png)
+
+![Pellets Contour Highlighting Result](./Assets/Pellets%20result%20of%20detection.jpg)
+
+![Fragments Confusion Matrix Result](./Assets/Pellets%20confusion%20matrix.png)
+
+![Tar Contour Highlighting Result](./Assets/Tar%20result%20of%20detection.jpg)
+
+![Fragments Confusion Matrix Result](./Assets/Tar%20confusion%20matrix.png)
+
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
-La guía presentada aquí es una modificación de la guía de instalación original creada por [otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/VC/P2).
+La guía presentada aquí es una modificación de la guía de instalación original creada por [otsedom.](https://github.com/otsedom/otsedom.github.io/tree/main/VC/P2)
 
 Esta sección detalla los pasos necesarios para configurar el entorno de desarrollo para la práctica.
 
