@@ -20,16 +20,42 @@ Para ejecutar el código incluido en los diferentes notebooks de Jupyter, es nec
 - OpenCV
 - NumPy
 - Matplotlib
+- Scikit-learn
+- Seaborn
 
 Asegúrate de disponer instalado los paquetes anteriormente listados, para ello, ejecuta el siguiente comando:
 
 ```bash
-pip install opencv-python numpy matplotlib
+pip install opencv-python numpy matplotlib scikit-learn seaborn
 ```
 
 # Tarea 1: Detección de monedas y coincidencia de radios en imágenes <a name="task-1"></a>
 
 Esta tarea consiste en capturar una o más imágenes que contengan monedas tanto superpuestas como no, así como, algunos objetos que no sean monedas estrictamente. El objetivo principal es procesar e identificar las imágenes para detectar y dibujar círculos con radios reales que correspondan a las monedas. El proceso de identificación se inicia haciendo clic en una de las monedas de la imagen, tras lo cual el sistema se encarga de calcular el valor de dicha moneda en función de su radio. Asimismo, el código proporciona información sobre el conteo total de monedas presentes en la imagen y obtiene el valor monetario combinado de todas las monedas presentes en la misma. 
+
+## Implementación:
+
+En esta tarea, se ha desarrollado un contador de monedas de euro a partir de una imagen de monedas dispersas inicalmente provista, utilizando una moneda de 1 euro como referencia comparativa. La selección de esta moneda se realiza mediante un clic izquierdo sobre la misma.
+
+A partir de la imagen original, se detectan los contornos principales utilizando el detector de bordes Canny, para lo cual se proporciona una imagen en escala de grises con un desenfoque Gaussiano como entrada.
+
+![Coins Image With Canny Filter](./Assets/Canny%20Filter.png)
+
+Posteriormente, se aplica el umbral de Otsu, del cual se resta la imagen obtenida con Canny para destacar de manera marcada y diferenciada cada uno de los bordes.
+
+![OTSU Image minus Canny Edges](./Assets/Coins%20Difference.png)
+
+Finalmente, se procesa dicha imagen para identificar los bordes circulares externos de las monedas.
+
+![Coin Circle Detection Image](./Assets/Coins%20Contours.png)
+
+Una vez detectados los posibles contornos existentes, se procede al conteo del dinero. Al hacer clic sobre la moneda de 1 euro, se calcula un factor de escala dividiendo su diámetro real entre su diámetro en la imagen; este factor se usará en los sucesivos pasos.
+
+Previamente, se han generado dos diccionarios: uno para los diámetros reales de cada tipo de moneda y otro para el total de dinero contado.
+
+Se continua detectando los contornos activos y verificando si corresponden a una moneda con la función `isCoin()`, la cual comprueba si los píxeles correspondientes en la imagen procesada son blancos. En caso afirmativo, se multiplica el diámetro de dicha moneda en la imagen por el factor de escala para obtener su diámetro real equivalente. Seguidamente, se agrupa dentro del intervalo correspondiente, de acuerdo con el umbral de tolerancia de diámetros de las monedas. Esto permite añadir una unidad de esa moneda al contador total.
+
+El proceso de conteo continúa hasta que no queden más contornos, y se calcula el valor total sumando la cantidad de cada tipo de moneda multiplicada por su valor, mostrando finalmente los resultados.
 
 <ins>Documentación utilizada:</ins>
 
@@ -49,7 +75,7 @@ Esta tarea consiste en capturar una o más imágenes que contengan monedas tanto
 
 El conteo de monedas no es completamente preciso. El error radica principalmente en la confusión entre las monedas de 50 céntimos y las de 2 euros, así como con las de 1 euro.
 
-![Coin Detection and Valuation](./Assets/Coins%20detected.png)
+![Coin Detection Result](./Assets/Coins%20Result.png)
 
 # Tarea 2: Clasificación y análisis basado en contornos <a name="task-2"></a>
 
