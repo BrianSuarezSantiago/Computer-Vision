@@ -38,6 +38,8 @@ En el presente repositorio, encontrarás una colección de tareas, código y doc
 
 - [Práctica 3](https://github.com/BrianSuarezSantiago/Computer-Vision/tree/master/Práctica%203)
 
+- [Práctica 4](https://github.com/BrianSuarezSantiago/Computer-Vision/tree/master/Práctica%204)
+
 # ⚙️ Getting started <a name="Getting-started"></a>
 
 Para instalar y ejecutar el proyecto, sigue los siguientes pasos:
