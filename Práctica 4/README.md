@@ -59,7 +59,6 @@ Este script procesa cada cuadro de un video para detectar vehículos y sus placa
 
 - Utiliza Tesseract para extraer el texto de las placas detectadas y muestra el texto en el cuadro de video.
 
-
 - Si display es True, muestra el video en pantalla; si no, guarda el video procesado en un archivo.
 
 - Dibuja un rectángulo y muestra la clase e ID de seguimiento sobre cada objeto detectado.
