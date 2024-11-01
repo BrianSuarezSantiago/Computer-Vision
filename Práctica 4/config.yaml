@@ -1,0 +1,15 @@
+# TGCRBNW
+
+# Train and validation data as:
+# 1. directory: path/images/
+# 2. file: path/images.txt
+# 3. list: [path1/images/, path2/images/]
+train: /Users/Brian/ULPGC/VC/P5/datasets/train
+val: /Users/Brian/ULPGC/VC/P5/datasets/valid
+test: /Users/Brian/ULPGC/VC/P5/datasets/test
+
+# Number of classes
+nc: 1
+
+# Class names
+names: [ 'license' ]
