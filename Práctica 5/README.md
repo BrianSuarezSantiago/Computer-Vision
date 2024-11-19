@@ -2,14 +2,11 @@
 
 El presente repositorio contiene ejercicios prácticos y código relacionado con la asignatura 40982 - Visión por Computador. Cada una de las tareas está acompañada de una descripción de la implementación del código y documentación relevante al respecto.
 
-**Nota: Este proyecto se desarrolla únicamente para un proyecto universitario.**
-
 
 # 📖 Tabla de Contenidos
   - [Paquetes utilizados](#paquetes-utilizados)
+  - [Paquetes necesarios](#paquetes-necesarios)
   - [Tarea: Superposición de características faciales en tiempo real](#task)
-  - [Modelos](#modelos)
-  - [Configuracion inicial](#configuracion-inicial)
   - [Guía de instalación](#guia-de-instalacion)
   - [Configuración del entorno de desarrollo](#configuracion-entorno-desarrollo)
   - [Comandos básicos de Anaconda](#comandos-basicos-anaconda)
@@ -43,6 +40,49 @@ Si el comando anteriormente produce errores, se puede utilizar conda para la ins
 conda install -c conda-forge dlib
 ```
 
+# 📦 Paquetes requeridos <a name="paquetes-necesarios"></a>
+
+Para asegurar el correcto funcionamiento del código, se necesita instalar los siguientes paquetes:
+
+- Retina-Face: un paquete de detección de rostros que proporciona resultados precisos.
+```bash
+pip install retina-face
+```
+- IPykernel (Anaconda): solo si encuentras el error 'paquete ipykernel requerido':
+```bash
+conda install -c anaconda ipykernel
+```
+- DeepFace: utilizado para tareas de reconocimiento facial basadas en aprendizaje profundo.
+```bash
+pip install deepface
+```
+- Imutils: proporciona funciones utilitarias para trabajar con OpenCV.
+```bash
+pip install --upgrade imutils
+```
+- CMake: requerido para compilar algunos paquetes, como dlib.
+```bash
+pip install cmake
+```
+- Dlib (Conda Forge): una dependencia para algunas tareas relacionadas con rostros y requiere CMake para su instalación.
+```bash
+conda install -c conda-forge dlib
+```
+- Dlib (PyPI): una biblioteca en C++ con bindings para Python utilizada para varias tareas de visión por computadora.
+```bash
+pip install dlib
+```
+- MTCNN: un paquete de detección de rostros que se puede usar junto con otros métodos.
+```bash
+pip install MTCNN
+```
+- TensorFlow es un framework de aprendizaje profundo que puede ser requerido por algunos modelos y tareas de reconocimiento facial.
+```bash
+pip install tensorflow
+```
+
+Asegúrate de instalar estos paquetes en tu entorno para asegurar el correcto funcionamiento del código proporcionado. También se proporcionan las razones para instalar cada paquete para mayor claridad.
+
 # 🎭 Tarea: Superposición de características faciales en tiempo real <a name="task"></a>
 
 Esta tarea implica crear un prototipo de código que utilice datos faciales sin restricciones temáticas. Detectores avanzados proporcionan información sobre componentes faciales, abriendo oportunidades para diversas aplicaciones, incluidos filtros creativos. La solución es un código que ofrece superposiciones de características faciales en tiempo real utilizando entrada de video en vivo. Este prototipo integra sin problemas las bibliotecas OpenCV, Tkinter y NumPy para lograr la tarea. Los usuarios pueden experimentar con superposiciones faciales de una manera creativa e interactiva, eligiendo entre varios modos para una experiencia atractiva.
@@ -52,9 +92,8 @@ Esta tarea implica crear un prototipo de código que utilice datos faciales sin 
 - https://github.com/italojs/facial-landmarks-recognition/tree/master
 - https://python.hotexamples.com/examples/retinaface/RetinaFace/build_model/python-retinaface-build_model-method-examples.html 
 
-# 📚 Modelos <a name="modelos"></a>
-
-Nota: Si los archivos .dat no funcionan, puedes descargarlos desde este enlace: http://dlib.net/files/
+> [!NOTE]
+> Si los archivos .dat no funcionan, puedes descargarlos desde [este enlace.](http://dlib.net/files/)
 
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
@@ -168,29 +207,3 @@ Este repositorio se desarrolla exclusivamente con fines educativos como parte de
 <p align="center">
 Made with ♥️ in Spain
 </p>
-
-----
-
-## Paquetes Requeridos
-Para asegurar el correcto funcionamiento del código, necesitas instalar los siguientes paquetes:
-
-- Retina-Face: un paquete de detección de rostros que proporciona resultados precisos.
-   ```shell
-   pip install retina-face
-IPykernel (Anaconda): solo si encuentras el error 'paquete ipykernel requerido':
-conda install -c anaconda ipykernel
-DeepFace: utilizado para tareas de reconocimiento facial basadas en aprendizaje profundo.
-pip install deepface
-Imutils: proporciona funciones utilitarias para trabajar con OpenCV.
-pip install --upgrade imutils
-CMake: requerido para compilar algunos paquetes, como dlib.
-pip install cmake
-Dlib (Conda Forge): una dependencia para algunas tareas relacionadas con rostros y requiere CMake para su instalación.
-conda install -c conda-forge dlib
-Dlib (PyPI): una biblioteca en C++ con bindings para Python utilizada para varias tareas de visión por computadora.
-pip install dlib
-MTCNN: un paquete de detección de rostros que se puede usar junto con otros métodos.
-pip install MTCNN
-TensorFlow es un framework de aprendizaje profundo que puede ser requerido por algunos modelos y tareas de reconocimiento facial.
-pip install tensorflow
-Asegúrate de instalar estos paquetes en tu entorno para asegurar el correcto funcionamiento del código proporcionado. También se proporcionan las razones para instalar cada paquete para mayor claridad.
