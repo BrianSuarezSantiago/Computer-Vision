@@ -191,7 +191,9 @@ pip install torch torchvision torchaudio
 
 # 📽️ Vídeos de muestra <a name="videos-de-muestra"></a>
 
-
+![filtro1](./Resources/Eye%20Glitcher%20Filter.gif)
+![filtro3](./Resources/Annabelle%20Mask%20Filter.png)
+![filtro3](./Resources/Face%20Modeling%20Filter.png)
 
 # 👨🏻‍💻 Colaboradores <a name="colaboradores"></a>
 
