@@ -26,7 +26,7 @@ Para ejecutar el código incluido en los diferentes notebooks de Jupyter, es nec
 Asegúrate de disponer instalado los paquetes anteriormente listados, para ello, ejecuta el siguiente comando:
 
 ```bash
-pip install ultralytics lap
+pip install ultralytics lapx
 ```
 
 Si el comando anteriormente produce errores, se puede utilizar conda para la instalación del mismo. Para ello, ejecuta el siguiente comando:
@@ -75,8 +75,7 @@ Los conjuntos de datos empleados para el desarrollo del modelo se han obtenido d
 
 - https://github.com/Asikpalysik/Automatic-License-Plate-Detection/tree/main/images
 
-- https://alumnosulpgc-my.sharepoint.com/personal/mcastrillon_iusiani_ulpgc_es/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmcastrillon%5Fiusiani%5Fulpgc%5Fes%2FDocuments%2FRecordings%2FC0142%2EMP4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb356b2e5%2De130%2D4de2%2D933b%2D0de09f9cbe7e
-
+- https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/brian_suarez103_alu_ulpgc_es/EZWN9vadUn1Ci7HIHioDqBgB0PskFmEPM_LTJFYmtMHv8g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EqTjlt
 
 # ⚙️ Guía de instalación <a name="guia-de-instalacion"></a>
 
